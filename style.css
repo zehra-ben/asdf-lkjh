@@ -1,0 +1,253 @@
+.  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, p, label {
+
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body {
+        background-image: url("c:\Users\FT\Pictures\Saved Pictures\.Wallpaper\8007330.jpg");
+        background-size: cover; /* Make the image cover the entire background */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat;
+      }
+      
+  }
+  
+  header {
+    background-color: aquamarine;
+    background-size: cover;
+    color: sienna;
+    text-align: centre;
+    padding: 50px 20px;
+  }
+  
+  .top-nav {
+    position: absolute;
+    top: 10px;
+    right: 20px; /* Moved to the top-left corner */
+  }
+  
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-nav ul li {
+    margin-right: 15px;
+  }
+  
+  .top-nav ul li a {
+    color:black; /* Dark text color for contrast */
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid aquamarine; /* Border for button effect */
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .top-nav ul li a:hover {
+    background-color: aquamarine; /* Light gray hover effect */
+  }
+  /* Hero Section Styling */
+  .hero-section h1 {
+    text-align: center;
+    animation: blink 2s infinite;
+  }
+  @keyframes blink{
+    0%{
+        opacity:1;
+    }
+    50% {
+        opacity:0.5;
+    }
+    100%{
+        opacity:1;
+    }
+  }
+  .hero-section h2 {
+    background-color: pink;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .hero-section>*{
+    margin-bottom: 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .job {
+    border: 1px solid sienna;
+    padding: 15px;
+    width: calc(33.33% - 20px);
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .featured-section .box {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  .featured-section .box img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+    .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  
+  /* Banner Image Styles */
+  .banner {
+    width: 100%;
+    height: 200px; /* Adjust banner height */
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  
+  nav ul {
+    list-style-type: lower-roman;
+    padding: 0;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: ;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .hero-section {
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 50px 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .job {
+    border: 1px solid sienna;
+    padding: 15px;
+    width: 30%;
+    background-color: white;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, select, button {
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .opportunity-image{
+    width: 200px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 10px;
+    margin-bottom:20px;
+  }
+  .featured-section{
+    text-align: center;
+  }
+ .featured-title{
+        background-color: pink;
+        color:sienna;
+        padding: 10px 20px;
+        border-radius: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  .image-container{
+    display: inline-block;
+    margin:20px;
+  }
+  .small-image{
+    width:200px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+   footer {
+    text-align: center;
+    padding: 10px;
+    background-color:pink;
+    color: white;
+  }
